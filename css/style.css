@@ -4,10 +4,19 @@ body{
     
 }
 p{
-    color: rgb(74, 102, 59);
-    width: 1200px;
+    color: rgb(0, 0, 0);
+    width: 1000px;
     text-align: center;
-    margin:auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.test {
+    color: rgb(45, 0, 248);
+    width: 1000px;
+    text-align: center;
+    margin: 1000px;
     margin-top: 20px;
     margin-bottom: 20px;
 }

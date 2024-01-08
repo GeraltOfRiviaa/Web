@@ -1,0 +1,13 @@
+body{
+    font-family: 'Times New Roman', Times, serif, cursive;
+    font-size: medium;
+    
+}
+p{
+    color: rgb(74, 102, 59);
+    width: 1200px;
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

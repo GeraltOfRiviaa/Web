@@ -3,20 +3,80 @@ body{
     font-size: medium;
     
 }
-p{
-    color: rgb(0, 0, 0);
-    width: 1000px;
+
+
+.p1 {
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+.p2 {
+    color: white;
+    width: 500px;
     text-align: center;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: grey;
 }
-
-.test {
-    color: rgb(45, 0, 248);
-    width: 1000px;
+.p3 {
+    color: white;
+    width: 500px;
     text-align: center;
-    margin: 1000px;
+    margin: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: grey;
 }
+.p4 {
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+.p5 {
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+.p6 {
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+.navrat {
+    
+    margin:auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    background-color: white;
+    border: none;
+    padding: 14px 16px;
+    border: none;
+    cursor: pointer;
+    
+    background-color: tomato;
+}
+.button:hover{
+    background-color: grey;
+   
+ 
+}
+

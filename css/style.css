@@ -1,62 +1,57 @@
 body{
     font-family: 'Times New Roman', Times, serif, cursive;
     font-size: medium;
-    
+    background-color: rgb(81, 78, 85);
 }
-
+main {
+    margin-bottom: -15px;
+    background-color: rgb(51, 49, 54);
+}
 
 .p1 {
     color: white;
-    width: 500px;
+    width: 1000px;
     text-align: center;
-    margin: 400px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: auto;
     background-color: grey;
 }
 .p2 {
     color: white;
-    width: 500px;
+    width: 1000px;
     text-align: center;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
     background-color: grey;
 }
 .p3 {
     color: white;
-    width: 500px;
+    width: 1000px;
     text-align: center;
-    margin: 500px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: auto;
     background-color: grey;
 }
 .p4 {
     color: white;
-    width: 500px;
+    width: 1000px;
     text-align: center;
-    margin: 500px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: auto;
     background-color: grey;
+    
 }
 .p5 {
     color: white;
-    width: 500px;
+    width: 1000px;
     text-align: center;
-    margin: 500px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: auto;
     background-color: grey;
 }
 .p6 {
     color: white;
-    width: 500px;
+    width: 1000px;
     text-align: center;
-    margin: 500px;
+   /* margin: 500px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;*/
+    margin: auto;
     background-color: grey;
 }
 .navrat {
@@ -72,11 +67,19 @@ body{
     border: none;
     cursor: pointer;
     
-    background-color: tomato;
+   
 }
 .button:hover{
     background-color: grey;
    
  
 }
+p{
+   color: white;
+}
 
+header{
+    background-color: white;
+    margin-right: 99%;
+    
+}

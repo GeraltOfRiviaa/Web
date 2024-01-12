@@ -68,3 +68,10 @@ header{
 
     
 }
+/* Media query pro úpravu layoutu na menších obrazovkách */
+ @media screen and (max-width: 1200px) {
+     main {
+         width: 90%; /* Hlavní obsah zabere 90% šířky */
+         margin: 0 auto; /* Vycentrování hlavního obsahu */
+     }    
+ }

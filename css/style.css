@@ -1,85 +1,82 @@
-body{
-    font-family: 'Times New Roman', Times, serif, cursive;
-    background-color:#2E6171;
+body {
+    font-family: "Times New Roman", Times, serif, cursive;
+    background-color: #2e6171;
 }
+
 main {
     margin-bottom: -15px;
-    background-color:#B76D68;
+    background-color: #b76d68;
     padding: 10px;
 }
+
 /*#EE8434 oranzova, #80AB82 zelena*/
-.p1{
+.p1 {
     text-align: center;
     width: 40%;
-    margin-left:6%;
+    margin-left: 6%;
     font-size: 125%;
     text-align: justify;
 }
-.p1 h2{
+
+.p1 h2 {
     font-size: 40px;
-    color: #F4FAFF;
-    
+    color: #f4faff;
 }
-.p2{
+
+.p2 {
     text-align: center;
     width: 40%;
-    margin-left:54%;
+    margin-left: 54%;
     font-size: 125%;
     text-align: justify;
 }
-.p2 h2{
+
+.p2 h2 {
     font-size: 40px;
-    color: #F4FAFF;
-    
+    color: #f4faff;
 }
-p{
-    color: #F4FAFF;
+
+p {
+    color: #f4faff;
 }
 
 .navrat {
-    
-    margin:auto;
+    margin: auto;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.button{
-    background-color: #2E6171;
+
+.button {
+    background-color: #2e6171;
     border: none;
     padding: 14px 16px;
     border: none;
     cursor: pointer;
-    
-   
 }
-.button:hover{
+
+.button:hover {
     background-color: rgb(240, 235, 235);
-   
- 
 }
-footer{
+
+footer {
     margin-top: 15px;
 }
 
-header{
+header {
     text-align: center;
-    color: #F4FAFF;
+    color: #f4faff;
     font-size: 60px;
-
-    
 }
 
-.obrazekPrava{
+.obrazekPrava {
     float: right;
     width: 40%;
     margin-right: 6%;
     margin-top: -10%;
-    
 }
 
-
 @media screen and (max-width: 1200px) {
-       
-    .p1{
+    .p1 {
         text-align: center;
         width: 90%;
         margin: 0 auto;
@@ -88,7 +85,8 @@ header{
         padding-bottom: 20%;
         padding-top: 20%;
     }
-    .p2{
+
+    .p2 {
         text-align: center;
         width: 90%;
         margin: 0 auto;
@@ -97,16 +95,17 @@ header{
         padding-bottom: 20%;
         padding-top: 20%;
     }
-    .p2 h2{
-        font-size:200%;
-        color: #F4FAFF;
-        
-    }
-    .p1 h2{
+
+    .p2 h2 {
         font-size: 200%;
-        color: #F4FAFF;
-        
+        color: #f4faff;
     }
+
+    .p1 h2 {
+        font-size: 200%;
+        color: #f4faff;
+    }
+
     header {
         font-size: 250%;
     }

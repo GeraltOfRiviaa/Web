@@ -68,11 +68,31 @@ header {
     font-size: 60px;
 }
 
-.obrazekPrava {
+.gimpCZ img {
     float: right;
-    width: 40%;
-    margin-right: 6%;
+    width: 20%;
+    height: auto;
+    margin-right: 5%;
+    margin-top: -13%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.gimpEN img {
+    float: right;
+    width: 23%;
+    height: auto;
+    margin-right: 3%;
+    margin-top: -13%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.obrazekPrava img {
+    margin-right: 10%;
     margin-top: -10%;
+    float: right;
+    width: 30%;
+    height: auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -108,5 +128,26 @@ header {
 
     header {
         font-size: 250%;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .gimpCZ img {
+        float: right;
+        width: 20%;
+        height: auto;
+        margin-right: 5%;
+        margin-top: -10%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .gimpEN img {
+        float: right;
+        width: 22%;
+        height: auto;
+        margin-right: 5%;
+        margin-top: -10%;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 }

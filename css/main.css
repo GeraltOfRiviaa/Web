@@ -37,6 +37,9 @@ header h1 {
     flex: 25%;
     
 }
+.flex-container > div p {
+    font-size: 100%;
+}
 footer p {
     color: #f4faff;
 }

@@ -7,6 +7,7 @@ main {
     margin-bottom: -15px;
     background-color: #b76d68;
     padding: 10px;
+    bottom: auto;
 }
 
 /*#EE8434 oranzova, #80AB82 zelena*/
@@ -68,30 +69,34 @@ header {
     font-size: 60px;
 }
 
-.gimpCZ img {
+.gimp img {
     float: right;
-    width: 20%;
+    width: 50%;
     height: auto;
-    margin-right: 5%;
-    margin-top: -13%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-.gimpEN img {
-    float: right;
-    width: 23%;
-    height: auto;
-    margin-right: 3%;
+    margin-right: 2%;
     margin-top: -13%;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
+.adobe img{
+    margin-left: 15%;
+    margin-top: -20%;
+    float: left;
+    width: 25%;
+    height: auto;
+    padding-bottom:30px;
+}
+.adobe{
+    size: auto;
+}
+
+
 .obrazekPrava img {
-    margin-right: 10%;
+    margin-right: 20%;
     margin-top: -10%;
     float: right;
-    width: 30%;
+    width: 15%;
     height: auto;
 }
 
@@ -132,22 +137,5 @@ header {
 }
 
 @media screen and (min-width: 1920px){
-    .gimpCZ img {
-        float: right;
-        width: 20%;
-        height: auto;
-        margin-right: 5%;
-        margin-top: -10%;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-    .gimpEN img {
-        float: right;
-        width: 22%;
-        height: auto;
-        margin-right: 5%;
-        margin-top: -10%;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
+    
 }

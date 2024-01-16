@@ -1,0 +1,16 @@
+.trial img{
+    margin-right:23%;
+    margin-top: -13%;
+    float: right;
+    width:20%;
+    height: auto;
+    padding:30px;
+}
+.linux img{
+    margin-left:15%;
+    margin-top: -27%;
+    float: left;
+    width:20%;
+    height: auto;
+    padding:30px;
+}

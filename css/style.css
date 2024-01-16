@@ -7,7 +7,7 @@ main {
     margin-bottom: -15px;
     background-color: #b76d68;
     padding: 10px;
-    bottom: auto;
+    bottom:100PX;
 }
 
 /*#EE8434 oranzova, #80AB82 zelena*/
@@ -40,12 +40,12 @@ main {
 p {
     color: #f4faff;
 }
-
+/*
 .navrat {
     margin: auto;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 
 .button {
     background-color: #2e6171;
@@ -67,37 +67,6 @@ header {
     text-align: center;
     color: #f4faff;
     font-size: 60px;
-}
-
-.gimp img {
-    float: right;
-    width: 50%;
-    height: auto;
-    margin-right: 2%;
-    margin-top: -13%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.adobe img{
-    margin-left: 15%;
-    margin-top: -20%;
-    float: left;
-    width: 25%;
-    height: auto;
-    padding-bottom:30px;
-}
-.adobe{
-    size: auto;
-}
-
-
-.obrazekPrava img {
-    margin-right: 20%;
-    margin-top: -10%;
-    float: right;
-    width: 15%;
-    height: auto;
 }
 
 @media screen and (max-width: 1200px) {

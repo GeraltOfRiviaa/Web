@@ -29,3 +29,48 @@
     float: right;
     margin-top: -3%;
 }
+@media screen and (max-width: 1200px){
+    .obrazekPrava img {
+        width: 50%;
+        height: auto;
+        margin-top: -20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .gimp img {
+        float:center;
+        width: 95%;
+        height: auto;
+        margin-left: 40%;
+    }
+    .minecraft img{
+        float: center;
+        width: 35%;
+        padding-top: px;
+    }
+    .minecraft p{
+        
+    }
+    .minecraft{
+        margin-top: 100px;
+        margin-bottom: -150px;
+    }
+    .registrace-programu p{
+        text-align: center;
+        width: 90%;
+        margin-top:80px;
+        font-size: 125%;
+        text-align: justify;
+        padding-bottom: 7%;
+        padding-top: 7%;
+        margin: 0 auto;
+    }
+    .registrace-programu h2{
+        font-size: 200%;
+        color: #f4faff;
+    }
+    .registrace-programu{
+        padding-top: 300px;
+    }
+}

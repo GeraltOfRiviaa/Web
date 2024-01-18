@@ -29,6 +29,7 @@
     float: right;
     margin-top: -3%;
 }
+
 @media screen and (max-width: 1200px){
     .obrazekPrava img {
         width: 50%;

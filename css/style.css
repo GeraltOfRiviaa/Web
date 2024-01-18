@@ -1,6 +1,10 @@
 body {
-    font-family: "Times New Roman", Times, serif, cursive;
+    font-family:MujFont ;
     background-color: #2e6171;
+}
+@font-face {
+    font-family: MujFont;
+    src: url(../fonts/PTSerif-Regular.ttf);
 }
 
 main {
@@ -63,7 +67,23 @@ header {
     color: #f4faff;
     font-size: 60px;
 }
-
+li{
+    color: #f4faff;
+    font-size: 20px;
+}
+mark{
+    background-color: #f4faff;
+    color: #2e6171;
+}
+a:hover {
+    color: #2e6171;
+    text-decoration: none;
+}
+main a {
+    color: #f4faff;
+    text-decoration: underline;
+    
+}
 @media screen and (max-width: 1200px) {
     .p1 {
         text-align: center;

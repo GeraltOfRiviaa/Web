@@ -1,7 +1,11 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:MujFont;
     font: medium;
     background-color: #2e6171;
+}
+@font-face {
+    font-family: MujFont;
+    src: url(../fonts/PTSerif-Regular.ttf);
 }
 main{
     background-color: #b76d68;

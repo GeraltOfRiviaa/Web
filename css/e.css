@@ -7,3 +7,16 @@
     padding-top:30px;
     padding-bottom:30px;
 }
+
+@media screen and (max-width: 1200px) {
+    .tabulka{
+        padding-bottom: 350px;
+    }
+    .tabulka img {
+        float: center;
+        width:100%;
+        height: auto;
+        margin-right: -0px;
+        margin-top: -20px;
+    }
+}

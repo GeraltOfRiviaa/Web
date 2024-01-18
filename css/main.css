@@ -44,4 +44,13 @@ footer p {
     color: #f4faff;
 }
 
-
+@media screen and (max-width: 1200px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-container > div {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}

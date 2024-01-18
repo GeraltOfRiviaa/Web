@@ -6,3 +6,17 @@
     height: auto;
     padding:30px;
 }
+@media screen and (max-width: 600px) {
+    .win img{
+        float: center;
+        width:50%;
+        height: auto;
+        margin-top: -130px;
+
+    }
+    .win{
+        padding: 60px;
+    }
+    
+    
+}

@@ -14,3 +14,22 @@
     height: auto;
     padding:30px;
 }
+
+@media screen and (max-width: 1200px) {
+    .trial img{
+
+        float: center;
+        width:50%;
+        height: auto;
+        padding:30px;
+    }
+    .linux img{
+        margin-right:-30px;
+        margin-top: -860px;
+        float: right;
+        width:20%;
+        height: auto;
+        padding:30px;
+    }
+    
+}

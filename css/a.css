@@ -48,11 +48,9 @@
     .minecraft img{
         float: center;
         width: 35%;
-        padding-top: px;
+
     }
-    .minecraft p{
-        
-    }
+    
     .minecraft{
         margin-top: 100px;
         margin-bottom: -150px;
@@ -76,5 +74,17 @@
     li{
         font-size: 125%;
         color: #f4faff;
+    }
+}
+@media screen and (min-width:1920px) {
+    .minecraft img{
+        float: center;
+        width: 13%;
+        margin-top: -400px;
+    }
+    .minecraft p{
+        margin-right: 21%;
+        float: right;
+        margin-top: -40px;
     }
 }

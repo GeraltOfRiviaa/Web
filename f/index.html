@@ -46,22 +46,26 @@
             <h2 id="3">Typy záloh</h2>
             <p><strong><em>Nestrukturovaná</em></strong>. Úložištěm může být větší množství <em>disket</em>, <em>CD</em>, <em>DVD</em> medií
                 s minimem informací o záloze; nejjednodušší, ale nevhodná pro větší firmy.</p>
-            <p><strong><em>Úplná + inkrementální</em></strong>. Cílem je vytvořit více kopií zálohovaných dat; poprvé
+            <hr>
+                <p><strong><em>Úplná + inkrementální</em></strong>. Cílem je vytvořit více kopií zálohovaných dat; poprvé
                 je provedena úplná záloha všech dat; poté je prováděna tzv. <strong><em>inkrementální záloha </em></strong>
                 (<em>tj. přírůstková, ukládány jsou pouze soubory, které se změnily od předešlé úplné nebo
                     inkrementální zálohy</em>); při obnově je nutné použít první úplnou i všechny následující inkrementální
                 zálohy (<em>náročné na paměťový prostor</em>).</p>
-            <p><strong><em>Úplná + rozdílová</em></strong>. Rozdíl oproti předešlé metodě je v tom, že po úplné záloze
+            <hr>
+                <p><strong><em>Úplná + rozdílová</em></strong>. Rozdíl oproti předešlé metodě je v tom, že po úplné záloze
                 každá částečná záloha zachytí všechny soubory vytvořené nebo změněné od
                 vytvoření úplné zálohy, třebaže některé už jsou obsaženy v předešlé částečné
                 záloze; výhodou je, že obnova zahrnuje obnovení pouze poslední úplné zálohy
                 a její překrytí poslední rozdílovou zálohou.</p>
-            <p><strong><em>Zrcadlová + reverzně přírůstková</em></strong>. Tento model obsahuje zrcadlo reflektující
+            <hr>
+                <p><strong><em>Zrcadlová + reverzně přírůstková</em></strong>. Tento model obsahuje zrcadlo reflektující
                 stav systému po poslední záloze a historii přírůstkových záloh; výhodou je, že
                 máme neustále k dispozici aktuální plnou zálohu a ukládáme pouze historii
                 změn; metoda se nehodí pro přenosná media, protože každá záloha musí být
                 provedena pomocí srovnání se zrcadlem.</p>
-            <p><strong><em>Průběžná ochrana dat (žurnálování)</em></strong>. Metoda využívá místo plánovaných periodických záloh okamžitý zápis
+            <hr>
+                <p><strong><em>Průběžná ochrana dat (žurnálování)</em></strong>. Metoda využívá místo plánovaných periodických záloh okamžitý zápis
                 každé změny do žurnálu změn (<em>logu</em>); provádí
                 se ukládáním bytů nebo celých bloků dat místo ukládání celých změněných
                 souborů; průběžný záznam změn v žurnálu umožňuje získat obraz dat v minulosti; naproti tomu prosté
@@ -95,6 +99,7 @@
                 můžeme použít řadu
                 archivačních programů - např. <strong><em>WinZip</em></strong>, <strong><em>WinRar</em></strong>, <strong><em>7zip</em></strong> a jiné.
             </p>
+            <hr>
             <p>
                 <strong><em>Záloha oddílu</em></strong>. Záloha obsahu celého diskového oddílu včetně instalovaného operačního systému (<em>pokud jej
                     oddíl obsahuje</em>), instalovaných
@@ -103,10 +108,12 @@
                 zálohy systémového oddílu je operační systém plně funkční a schopný
                 bootovat (<em>za předpokladu, že byl funkční v době tvorby zálohy</em>).
             </p>
+            <hr>
             <p>
                 <strong><em>Záloha disku</em></strong>. Záloha obsahu celého disku včetně rozdělení disku na
                 jednotlivé oddíly (<em>např. <strong>Clonezilla</strong></em>)
             </p>
+            <hr>
             <p>
                 <strong><em>Záloha systému</em></strong>. Záloha funkčního stavu systému, která by umožňuje
                 obnovení systému do původní podoby; je možné použít buď program

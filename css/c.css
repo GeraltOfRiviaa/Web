@@ -19,3 +19,14 @@ figure img{
     }
     
 }
+@media screen and (min-width: 1920px){
+    figure img{
+        margin-left:15%;
+        margin-top: -40px;
+        float: left;
+        width:8%;
+        height: auto;
+        
+    }
+    
+}

@@ -1,22 +1,39 @@
-.tabulka img{
-    margin-right:8%;
-    margin-top:-23% ;
+figure img{
+
+    margin-top: -8%;
     float: right;
-    width:38%;
+    width:50%;
     height: auto;
     padding-top:30px;
     padding-bottom:30px;
 }
+figure{
+    padding-bottom: 400px;
+}
 
 @media screen and (max-width: 1200px) {
-    .tabulka{
+    figure{
         padding-bottom: 350px;
     }
-    .tabulka img {
+    figure img{
         float: center;
-        width:100%;
+        width:120%;
         height: auto;
-        margin-right: -0px;
+        margin-right: -46px;
         margin-top: -20px;
     }
+}
+@media screen and (min-width: 1920px){
+    figure img{
+
+        margin-top:-100px ;
+        float: right;
+        width:50%;
+        height: auto;
+        padding-top: 50px;
+    }
+    figure{
+        padding-bottom: 650px;
+    }
+    
 }

@@ -20,3 +20,14 @@
     
     
 }
+@media screen and (min-width: 1920px){
+    .win img{
+        margin-right:15%;
+        margin-top: -18%;
+        float: right;
+        width:20%;
+        height: auto;
+        
+    }
+    
+}

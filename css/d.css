@@ -19,3 +19,14 @@
     }
     
 }
+@media screen and (min-width: 1920px){
+    .box img{
+        margin-right:15%;
+        margin-top: -14%;
+        float: right;
+        width:20%;
+        height: auto;
+        
+    }
+    
+}
